@@ -1,183 +1,360 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-      <link rel="shortcut icon" href="images/laced.png">
-    <title>Laced - Laboratório de Computação Embarcada e Distribuída</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/animate.min.css" rel="stylesheet">
-    <link href="css/lightbox.css" rel="stylesheet">
-	<link href="css/main.css" rel="stylesheet">
-	<link href="css/responsive.css" rel="stylesheet">
+<html lang="en">
 
-    <!--[if lt IE 9]>
-	    <script src="js/html5shiv.js"></script>
-	    <script src="js/respond.min.js"></script>
-    <![endif]-->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
-</head><!--/head-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>ORI</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/ori-logo.png">
+
+    <!-- Core Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
 
 <body>
-	<header id="header">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 overflow">
-                   <div class="social-icons pull-right">
-                     <div class="bs-example">
-                         <button type="button" class="btn btn-xs btn-default"  ><a href="https://boca.laced.com.br">BOCA - LOGIN </a> </button>
-                         <button type="button" class="btn btn-xs btn-default"  ><a href="https://trac.laced.com.br/trac">TRAC </a> </button>
-                          <button type="button" name="button" class="btn btn-xs btn-default"> <a href="https://gitlab.laced.com.br"><i class="fa fa-git"></i></a></button>
+    <!-- ##### Preloader ##### -->
+    <div id="preloader">
+        <i class="circle-preloader"></i>
+    </div>
 
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
 
-                     </div>
+        <!-- Top Header Area -->
+        <div class="top-header">
+            <div class="container h-100">
+                <div class="row h-100">
+                    <div class="col-12 h-100">
+                        <div class="header-content h-100 d-flex align-items-center justify-content-between">
+                            <div class="academy-logo">
+                                <a href="index.html"><p>Olimpíada Regional de Informática</p></a>
+                            </div>
+                            <!--<div class="login-content">
+                                <a class="btn navbar-btn btn-primary ml-2 text-white">
+                                                <i class="fa d-inline fa-lg fa-pencil-square"></i>&nbsp;Inscrição</a>
+                                <a class="btn navbar-btn btn-primary ml-2 text-white">
+                                                <i class="fa d-inline fa-lg fa-user-circle-o"></i>&nbsp;Acessar</a>
+                            </div>-->
+                        </div>
                     </div>
                 </div>
-             </div>
+            </div>
         </div>
-        <div class="navbar navbar-inverse" role="banner">
-            <div class="container">
-                <div class="navbar-header">
-                    <!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>-->
 
-                    <a class="navbar-brand" href="index.html" >
-                    	<img src="images/laced.png" alt="logo" height="90" width="340" align="center">
-                    </a>
+        <!-- Navbar Area -->
+        <div class="academy-main-menu">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <!-- Menu -->
+                    <nav class="classy-navbar justify-content-between" id="academyNav">
 
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="classy-menu">
+
+                            <!-- close btn -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+
+                            <!-- Nav Start -->
+                            <!--<div class="classynav">
+                                <ul>
+                                    <li><a href="">Sobre</a></li>
+                                    <li><a href="">Objetivos</a></li>
+                                    <li><a href="">Modalidades</a></li>
+                                    <li><a href="">Datas</a></li>
+                                    <li><a href="">Organizadores</a></li>
+                                    <li><a href="">Contato</a></li>
+                                </ul>
+                            </div>-->
+                            <!-- Nav End -->
+                        </div>
+
+                        <!-- Calling Info -->
+
+                    </nav>
                 </div>
-                <!--<div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <br><li class="active"><a href="index.html">Página Inicial</a></li>
-                        <li><a href="404.html">Projetos</a></li>
-                        <li><a href="404.html">Artigos</a></li>
-                        <li><a href="404.html">Membros Ativos</a></li>
-                        <li><a href="404.html">Alumni</a></li>
-                    </ul>
-                </div>-->
-
             </div>
         </div>
     </header>
-    <!--/#header-->
-  <section id="services">
+    <!-- ##### Header Area End ##### -->
 
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
-                    <div class="single-service">
-                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
-                            <img src="images/carroa.jpg" alt="">
+    <!-- ##### Hero Area Start ##### -->
+    <section class="hero-area">
+        <div class="hero-slides owl-carousel">
+
+            <!-- Single Hero Slide -->
+            <div class="single-hero-slide bg-img" style="background-image: url(img/curso2.jpeg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12">
+                            <div class="hero-slides-content">
+                                <h4 data-animation="fadeInUp" data-delay="100ms">Projeto Olimpíco de Informática</h4>
+                                <h2 data-animation="fadeInUp" data-delay="400ms">Bem Vindo ao site oficial da <br>Olimpíada Regional de Informática</h2>
+
+                            </div>
                         </div>
-                        <h2>Estimação em Tempo Real da Trajetória de Veículos Autônomos.</h2>
-                        <p>Cordenador do Projeto: Dr. Otacílio Neto</p>
                     </div>
                 </div>
-                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
-                    <div class="single-service">
-                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
-				<a href="https://emanuel-gomes.github.io/laced/~ori">
-                            		<img src="images/ori.png" alt="">
-				</a>
-                        </div>
-                        <h2>Olimpíada Regional de Informática</h2>
-                        <p>Coordenador do Projeto: Dr. Otacílio Neto</p>
-                    </div>
-                </div>
-                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
-                    <div class="single-service">
-                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
-                            <img src="images/barros.jpeg" alt="">
-                        </div>
-                        <h2>Uma API para integrar simuladores heterogêneos através do padrão HLA</h2>
-                        <p>Coordenador do Projeto: Msc. José de Sousa Barros</p>
+            </div>
+
+            <!-- Single Hero Slide -->
+            <div class="single-hero-slide bg-img" style="background-image: url(img/curso1.jpeg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <!-- ##### Hero Area End ##### -->
 
-    <!--/#services-->
-
-  <!--<section id="action" class="responsive">
-        <div class="vertical-center">
-             <div class="container">
-                <div class="row">
-                    <div class="action take-tour">
-
+    <!-- ##### Top Feature Area Start ##### >
+    <div class="top-features-area wow fadeInUp" data-wow-delay="300ms">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="features-content">
+                        <div class="row no-gutters">
+                            < Single Top Features >
+                            <div class="col-12 col-md-4">
+                                <div class="single-top-features d-flex align-items-center justify-content-center">
+                                    <i class="icon-agenda-1"></i>
+                                    <h5>Online Courses</h5>
+                                </div>
+                            </div>
+                            <!-- Single Top Features >
+                            <div class="col-12 col-md-4">
+                                <div class="single-top-features d-flex align-items-center justify-content-center">
+                                    <i class="icon-assistance"></i>
+                                    <h5>Amazing Teachers</h5>
+                                </div>
+                            </div>
+                            <!-- Single Top Features >
+                            <div class="col-12 col-md-4">
+                                <div class="single-top-features d-flex align-items-center justify-content-center">
+                                    <i class="icon-telephone-3"></i>
+                                    <h5>Great Support</h5>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-   </section>
-    /#action-->
+    </div>
+    <!-- ##### Top Feature Area End ##### -->
 
-    <footer id="footer">
+    <!-- ##### Course Area Start ##### -->
 
-         <div class="container">
-             <div class="row">
-                 <div class="col-md-7 col-sm-6">
-                     <div class="contact-info bottom">
-                         <br><h2>Contato</h2>
-                         <address>
-                         E-mail: <a href="mailto:someone@example.com">contato@laced.com.br</a> <br>
-                         </address>
+    <div class="academy-courses-area section-padding-100-0">
+        <div class="container">
 
-                         <h2>Endereço</h2>
-                         <address>
-                         Rua Professor Carlos Leonardo Arcoverde, Rodovia PB 057 - KM-02 - S/N, <br>
-                         Guarabira - PB, <br>
-                         CEP: 58200-000 <br>
-                         Brazil<br>
-                         </address>
-                     </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading text-center mx-auto wow fadeInUp" data-wow-delay="300ms">
+                        <h3>Apoio</h3>
+                    </div>
+                </div>
+                <!-- Single Course Area -->
+                <div class="col-12 col-sm-6 col-lg-6">
 
-                 </div>
-                 <div class="col-md-5 col-sm-6">
-                   <h2>Apoios e Parceiros</h2>
-                   <a href="https://www.ifpb.edu.br/guarabira"><img src="images/ifpb.png"  alt="ifpb" height="150"></a>
-                 </div>
+                    <div class="single-course-area d-flex align-items-center mb-100 wow fadeInUp" data-wow-delay="300ms">
+                         <div class="container-fluid bg-3 text-center">
 
+                            <a href="http://www.ifpb.edu.br/guarabira" target="_blank">
+                                <img class="parceiros-logo-ifpb" src="img/campus-guarabira.png" width="150" height="200">
+                            </a>
 
-             </div>
-         </div>
-     </footer>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-6">
 
-     <section id="action" class="responsive">
-           <div class="vertical-center">
-                <div class="container">
-                   <div class="row">
-                       <div class="action take-tour">
-                         <div class="col-sm-12">
-                             <div class="copyright-text text-center">
-                                 <p><a target="_blank" href="#">&copy; Laced 2019. Direitos reservados </p>
-                                 <p>Designed by Themeum - Desenvolvido por <a href="https://emanuel-gomes.github.io">Emanuel Gomes</a></a></p>
-                             </div>
-                         </div>
-                       </div>
-                   </div>
-               </div>
-           </div>
-      </section>
+                    <div class="single-course-area d-flex align-items-center mb-100 wow fadeInUp" data-wow-delay="300ms">
+                         <div class="container-fluid bg-3 text-center">
+
+                            <a href="http://laced.com.br" target="_blank">
+                                <img class="parceiros-logo-laced" src="img/laced.png" width="400" height="200">
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- ##### Course Area End ##### -->
 
 
 
-    <!--/#footer-->
+    <!-- ##### Testimonials Area Start ##### -->
+    <div class="testimonials-area section-padding-30 bg-img ">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading text-center mx-auto black wow fadeInUp" data-wow-delay="300ms">
+                        <h3>Objetivos</h3>
+                    </div>
+                    <p>O objetivo da OBI é despertar nos alunos o interesse por uma ciência importante na formação básica hoje em dia (no caso, ciência da computação), através de uma atividade que envolve desafio, engenhosidade e uma saudável dose de competição. A organização da ORI está cargo do <a href="http://laced.com.br" class="white">LACED</a> do <a href="https://www.ifpb.edu.br/guarabira">Instituto Federal da Paraíba - Campus Guarabira</a>. </p>
+                </div>
+            </div>
+        </div>
+      </div>
 
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/lightbox.min.js"></script>
-    <script type="text/javascript" src="js/wow.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+
+
+    <!-- ##### Testimonials Area End ##### -->
+
+    <!-- ##### Top Popular Courses Area Start ##### -->
+    <div class="top-popular-courses-area section-padding-100-70">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading text-center mx-auto wow fadeInUp" data-wow-delay="300ms">
+                        <h3>Datas</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+
+                <table class="table text-center table-striped">
+                  <thead>
+                    <tr>
+                      <th scope="col"></th>
+                      <th scope="col">Fase 1</th>
+                      <th scope="col">Fase 2</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Programação (Ensino Médio) </th>
+                      <td>(24/05/2019) - À escolha da escola</td>
+                      <td>(30/08/2019) - 13h30min até às 17h</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Avançado (Ensino Médio e Ensino Superior)</th>
+                      <td colspan="2">(16/08/2019) - 13h até às 17h</td>
+                      <td></td>
+                    </tr>
+                  </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+    <!-- ##### Top Popular Courses Area End ##### -->
+
+    <!-- ##### CTA Area Start #####
+    <div class="call-to-action-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="cta-content d-flex align-items-center justify-content-between flex-wrap">
+                        <h3>Quer Treinar Programação?</h3>
+                        <a href="#" class="btn academy-btn">Então Clique aqui!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    ##### CTA Area End ##### -->
+
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="footer-area">
+        <div class="main-footer-area section-padding-100-0">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Widget Area -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="footer-widget mb-100">
+                            <div class="widget-title">
+                                <a href="#"><img src="img/ori-logo.png" alt=""></a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- Footer Widget Area -->
+                    <!--div class="col-12 col-sm-6 col-lg-3">
+                        <div class="footer-widget mb-100">
+                            <div class="widget-title">
+                                <h6>Gallery</h6>
+                            </div>
+                            <div class="gallery-list d-flex justify-content-between flex-wrap">
+                                <a href="img/bg-img/gallery1.jpg" class="gallery-img" title="Gallery Image 1"><img src="img/bg-img/gallery1.jpg" alt=""></a>
+                                <a href="img/bg-img/gallery2.jpg" class="gallery-img" title="Gallery Image 2"><img src="img/bg-img/gallery2.jpg" alt=""></a>
+                                <a href="img/bg-img/gallery3.jpg" class="gallery-img" title="Gallery Image 3"><img src="img/bg-img/gallery3.jpg" alt=""></a>
+                                <a href="img/bg-img/gallery4.jpg" class="gallery-img" title="Gallery Image 4"><img src="img/bg-img/gallery4.jpg" alt=""></a>
+                                <a href="img/bg-img/gallery5.jpg" class="gallery-img" title="Gallery Image 5"><img src="img/bg-img/gallery5.jpg" alt=""></a>
+                                <a href="img/bg-img/gallery6.jpg" class="gallery-img" title="Gallery Image 6"><img src="img/bg-img/gallery6.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </div-->
+                    <!-- Footer Widget Area -->
+                    <div class="col-12 col-sm-6 col-lg-6">
+                        <div class="footer-widget mb-100">
+                            <div class="widget-title">
+                                <h6>Contato</h6>
+                            </div>
+                            <div class="single-contact d-flex mb-30">
+                                <i class="icon-placeholder"></i>
+                                <p>Rua: Professor Carlos Leonardo Arcoverde, S/N, PB 057, Km 02
+                                    Guarabira, PB, Brasil
+                                    CEP: 58200-000
+                                    Complemento: Coordenação do Curso Técnico em Informática
+                                </p>
+                            </div>
+
+                            <div class="single-contact d-flex">
+                                <i class="icon-contract"></i>
+                                <p>ori@ifpb.edu.br</p>
+                            </div><br>
+                            <div class="footer-social-info">
+                                <a href="https://www.instagram.com/olimp.regional/"><i class="fa fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-footer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> - Direitos Reservados - Desenvolvido por <a href="https://emanuel-gomes.github.io"> Emanuel Gomes</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ##### Footer Area Start ##### -->
+
+    <!-- ##### All Javascript Script ##### -->
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
 </body>
+
 </html>
