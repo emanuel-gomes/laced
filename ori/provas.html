@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
-<title>ORI - Organização</title>
+<title>ORI 2020 | LACED | PROVAS</title>
 <link rel="shortcut icon" href="images/logo/ori.png" type="image/x-icon">
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,11 +9,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
 <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
-<link rel="stylesheet" type="text/css" href="styles/speakers.css">
-<link rel="stylesheet" type="text/css" href="styles/speakers_responsive.css">
+<link rel="stylesheet" type="text/css" href="styles/elements.css">
+<link rel="stylesheet" type="text/css" href="styles/elements_responsive.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
 
@@ -46,8 +44,7 @@
 	<!-- Home -->
 
 	<div class="home">
-		<!-- <div class="home_background" style="background-image: url(images/index.jpg)"></div> -->
-		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/speakers.jpg" data-speed="0.8"></div>
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/contact.jpg" data-speed="0.8"></div>
 
 		<!-- Header -->
 
@@ -61,12 +58,20 @@
 									<div>
 										<a href="#">
 											<div class="logo_container d-flex flex-row align-items-start justify-content-start">
-												<div class="logo_image"><div><img src="images/logo/ori.png" alt=""></div></div>
+												<div class="logo_image"><div><img src="images/logo/ori.png" alt="" width="100"></div></div>
 												<div class="logo_content">
 													<div id="logo_text" class="logo_text logo_text_not_ie">Olimpíada Regional de Informática 2020</div>
+													<!--<div class="logo_sub">Novembro 25, 2020 - Guarabira-PB</div-->
 												</div>
 											</div>
 										</a>
+									</div>
+									<div class="header_social ml-auto">
+										<ul>
+											<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+											<li><a href="https://twitter.com/olimpRegInfo"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+										</ul>
 									</div>
 									<div class="hamburger ml-auto"><i class="fa fa-bars" aria-hidden="true"></i></div>
 								</div>
@@ -83,10 +88,11 @@
 										<div class="header_nav_content d-flex flex-row align-items-center justify-content-start">
 											<nav class="main_nav">
 												<ul>
-													<li><a href="index.html">Página Inicial</a></li>
-													<li class="active"><a href="organizacao.html">Organização</a></li>
+													<li class="active"><a href="index.html">Página Inicial</a></li>
+													<li><a href="organizacao.html">Organização</a></li>
 													<li><a href="certificados.html">Certificados</a></li>
 													<li><a href="provas.html">Provas</a></li>
+													<!--li><a href="#">Contato</a></li-->
 												</ul>
 											</nav>
 											<div class="header_extra ml-auto">
@@ -103,7 +109,6 @@
 									<div class="col">
 										<div class="search_content d-flex flex-row align-items-center justify-content-end">
 											<form action="#" id="search_container_form" class="search_container_form">
-												<input type="text" class="search_container_input" placeholder="Search" required="required">
 												<button class="search_container_button"><i class="fa fa-search" aria-hidden="true"></i></button>
 											</form>
 										</div>
@@ -121,11 +126,11 @@
 				<div class="row">
 					<div class="col">
 						<div class="home_content d-flex flex-row align-items-end justify-content-start">
-							<div class="current_page">Organização</div>
+							<div class="current_page">PROVAS</div>
 							<div class="breadcrumbs ml-auto">
 								<ul>
 									<li><a href="index.html">Página Inicial</a></li>
-									<li>Organização</li>
+									<li>Provas</li>
 								</ul>
 							</div>
 						</div>
@@ -135,98 +140,84 @@
 		</div>
 	</div>
 
-	<!-- Speakers -->
+	<!-- Elements -->
 
-	<div class="speakers">
-		<div class="container reset_container">
+	<div class="elements">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<!-- Accordions & Tabs -->
 
-			<!-- Speaker -->
-			<div class="row row-lg-eq-height">
-				<div class="col-lg-6 speaker_col reset_col">
-					<div class="speaker_image" style="background-image:url(images/org/otacilio.jpeg)"></div>
-				</div>
-				<div class="col-lg-6">
-					<div class="speaker_content d-flex flex-column align-items-start justify-content-center">
-						<div class="speaker_title">Otacílio Neto</div>
-						<div class="speaker_subtitle">Coordenador Geral</div>
-						<div class="speaker_text">
-							<p>Técnico em Processamento de Dados pelo IFPB<br>Bacharel em Engenharia Elétrica pela UFCG<br>Especialista em Segurança da Informação pela Faculdade iDez<br>Mestre em Informática pela UFPB<br>Doutor em Engenharia Mecânica pela UFPB<br><br><br></p>
-							<div class="footer_social">
-								<ul class="footer_social_list">
-									<li><a href="http://lattes.cnpq.br/8034991062825416"><i class="fa fa-desktop" aria-hidden="true"></i></a></li>
-								</ul>
+					<div class="elements_accordions_tabs">
+						<div class="elements_title" align="center">PROVAS</div>
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="elements_accordions">
+									<div class="accordions">
+										<div class="accordion_container">
+											<div class="accordion d-flex flex-row align-items-center"><div>EDIÇÃO 2019</div></div>
+											<div class="accordion_panel">
+												<div class="">
+													<table class="table table-striped table-hover">
+													  <thead align="center">
+													    <tr>
+													      <th scope="col">ANO</th>
+													      <th scope="col">MODALIDADE</th>
+																<th scope="col">FASE</th>
+													      <th scope="col">DOWNLOAD</th>
+													    </tr>
+													  </thead>
+													  <tbody align="center">
+													    <tr>
+													      <td>2019</td>
+																<td>PROGRAMAÇÃO</td>
+													      <td>FASE 1</td>
+													      <td><a href="provas/2019/prova-programacaof1-2019.pdf"><img src="images/download.png" alt="" width="20"></a></td>
+													    </tr>
+															<tr>
+													      <td>2019</td>
+																<td>PROGRAMAÇÃO</td>
+													      <td>FASE 2</td>
+													      <td><a href="provas/2019/prova-programacaof2-2019.pdf"><img src="images/download.png" alt="" width="20"></a></td>
+													    </tr>
+															<tr>
+													      <td>2019</td>
+																<td>AVANÇADA JR E SR</td>
+													      <td>FASE ÚNICA</td>
+													      <td><a href="provas/2019/prova-avancada-2019.pdf"><img src="images/download.png" alt="" width="20"></a></td>
+													    </tr>
+													  </tbody>
+													</table>
+												</div>
+											</div>
+										</div>
+
+										<!--div class="accordion_container">
+											<div class="accordion d-flex flex-row align-items-center"><div>EDIÇÃO 2020</div></div>
+											<div class="accordion_panel">
+												<div class="">
+													<p></p>
+												</div>
+											</div>
+										</div-->
+
+										<!--div class="accordion_container">
+											<div class="accordion d-flex flex-row align-items-center active"><div> Modalidade Iniciação</div></div>
+											<div class="accordion_panel">
+												<div class="">
+
+												</div>
+											</div>
+										</div-->
+
+									</div>
+								</div>
 							</div>
 						</div>
-						<!--div class="button speaker_button"><a href="#">Buy Tickets Now!</a></div-->
 					</div>
+
 				</div>
 			</div>
-
-			<!-- Speaker -->
-			<div class="row row-lg-eq-height">
-				<div class="col-lg-6 order-lg-1 order-2">
-					<div class="speaker_content d-flex flex-column align-items-start justify-content-center">
-						<div class="speaker_title">Emanuel Gomes</div>
-						<div class="speaker_subtitle">Coordenador Operacional</div>
-						<div class="speaker_text">
-							<p>Técnico em Informática pelo IFPB - Campus Guarabira <br><br><br><br><br><br><br></p>
-							<div class="footer_social">
-								<ul class="footer_social_list">
-									<li><a href="https://www.instagram.com/manel.ferreira_/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-									<li><a href="https://emanuel-gomes.github.io"><i class="fa fa-desktop" aria-hidden="true"></i></a></li>
-									<li><a href="http://lattes.cnpq.br/8909542538730656"><i class="fa fa-laptop" aria-hidden="true"></i></a></li>
-									<li><a href="https://twitter.com/manel_ferreir"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-									<li><a href="https://github.com/emanuel-gomes/"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-								</ul>
-							</div>
-						</div>
-						<!--div class="button speaker_button"><a href="#">Buy Tickets Now!</a></div-->
-					</div>
-				</div>
-				<div class="col-lg-6 speaker_col reset_col order-lg-2 order-1">
-					<div class="speaker_image" style="background-image:url(images/org/emanuel.jpg)"></div>
-				</div>
-			</div>
-
-			<!-- Speaker -->
-			<div class="row row-lg-eq-height">
-				<div class="col-lg-6 speaker_col reset_col">
-					<div class="speaker_image" style="background-image:url(images/org/joyce.jpeg)"></div>
-				</div>
-				<div class="col-lg-6">
-					<div class="speaker_content d-flex flex-column align-items-start justify-content-center">
-						<div class="speaker_title">Joyce Pinheiro</div>
-						<div class="speaker_subtitle">Coordenadora de Provas e Ensino</div>
-						<div class="speaker_text">
-							<p>Técnica em Informática pelo IFPB - Campus Guarabira <br><br><br><br><br><br><br></p>
-							<div class="footer_social">
-								<ul class="footer_social_list">
-									<li><a href="http://lattes.cnpq.br/6885689622956787"><i class="fa fa-desktop" aria-hidden="true"></i></a></li>
-								</ul>
-							</div>
-						</div>
-						<!--div class="button speaker_button"><a href="#">Buy Tickets Now!</a></div-->
-					</div>
-				</div>
-			</div>
-
-			<!-- Speaker
-			<div class="row row-lg-eq-height">
-				<div class="col-lg-6 order-lg-1 order-2">
-					<div class="speaker_content d-flex flex-column align-items-start justify-content-center">
-						<div class="speaker_title">Patricia Freeman</div>
-						<div class="speaker_subtitle">Marketing Specialist</div>
-						<div class="speaker_text">
-							<p>Donec quis metus ac arcu luctus accumsan. Nunc in justo tincidunt, sodales nunc id, finibus nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce nec ante vitae lacus aliquet vulputate. Donec scelerisque accumsan molestie. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras sed accumsan neque. Ut vulputate, lectus vel aliquam congue, risus leo elementum nibh, sed faucibus nisi tortor sed ante.</p>
-						</div>
-						<div class="button speaker_button"><a href="#">Buy Tickets Now!</a></div>
-					</div>
-				</div>
-				<div class="col-lg-6 speaker_col reset_col order-lg-2 order-1">
-					<div class="speaker_image" style="background-image:url(images/speaker_4.jpg)"></div>
-				</div>
-			</div>-->
-
 		</div>
 	</div>
 
@@ -290,14 +281,20 @@
 			</div>
 		</footer>
 
-	</div>
+</div>
 
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="styles/bootstrap4/popper.js"></script>
 <script src="styles/bootstrap4/bootstrap.min.js"></script>
-<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="plugins/greensock/TweenMax.min.js"></script>
+<script src="plugins/greensock/TimelineMax.min.js"></script>
+<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="plugins/greensock/animation.gsap.min.js"></script>
+<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="plugins/progressbar/progressbar.min.js"></script>
 <script src="plugins/easing/easing.js"></script>
+<script src="plugins/jquery-circle-progress-1.2.2/circle-progress.js"></script>
 <script src="plugins/parallax-js-master/parallax.min.js"></script>
-<script src="js/speakers.js"></script>
+<script src="js/elements.js"></script>
 </body>
 </html>
